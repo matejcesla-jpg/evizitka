@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    text-decoration: none;
 }
 
 body {
@@ -104,3 +105,102 @@ body {
     line-height: 1.4;
     margin: 0;
 }
+
+
+.card-project {
+    grid-column: 3;
+    grid-row: 1;
+    background: #D8FF45;
+    border-radius: 24px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+.card-project a{
+    color: #000000;
+}
+.project-txt {
+    max-width: 620px;
+    margin-top:auto;
+}
+.project-txt h2 {
+    font-size: 60px;
+    line-height: 0.85;
+    margin: 0 0 25px 0;
+    letter-spacing: -4px;
+    font-weight: 500;
+    
+}
+
+.project-txt p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+.card-about {
+    grid-column: 2;
+    grid-row: 2;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+.about-txt {
+    max-width: 620px;
+    margin-top:auto;
+}
+.about-txt h2 {
+    font-size: 50px;
+    margin: 0 0 25px 0;
+    letter-spacing: -4px;
+    line-height: 0.95;
+    font-weight: 500;
+}
+
+.about-txt p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+
+.card-contact {
+    grid-column: 3;
+    grid-row: 2;
+    background: #6758F5;
+    border-radius: 24px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+.card-contact a {
+    color: #ffffff;
+}
+.contact-txt {
+    max-width: 620px;
+    margin-top:auto;
+}
+.contact-txt h2 {
+    font-size: 60px;
+    line-height: 0.9;
+    margin: 0 0 25px 0;
+    letter-spacing: -4px;
+    font-weight: 500;
+    
+}
+
+.contact-txt p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
